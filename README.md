@@ -23,7 +23,7 @@ To begin using the software, run this line and enter your chess.com username and
 python -m acco.init_database
 ```
 
-![Example of running acco.init_database, using Magnus Carlsen's chess.com username and a dummy path to a stockfish executable.](/acco_proj/src/imgs/init_database.png)
+![Example of running acco.init_database, using Magnus Carlsen's chess.com username and a dummy path to a stockfish executable.](imgs/init_database.png)
 
 
 Now we can start the GUI with:
@@ -37,19 +37,19 @@ Our inital database only stores games played in the current month, so it's wise 
 ![The initial screen](imgs/update_db.png)
 
 We now have Magnus' games going back to January of 2020. Note that our ELO plot looks pretty jank right now. We can filter it by time control using the buttons below the plot, and adjust the start and end game using the sliders:
-![The initial screen](/acco_proj/src/imgs/elo_view.png)
+![The initial screen](imgs/elo_view.png)
 
 The most useful feature is the game analysis view. When we toggle into `Game Info` by pressing the button above the ELO plot, we switch to game-analysis view. While in this view, click `Run Analysis` while any game selected (the currently selected game is colored yellow). You'll be prompted for the analysis depth stockfish should use, and when the analysis is done you will be given an Advantage plot and a WDR plot:
-![The initial screen](/acco_proj/src/imgs/analysis1.png)
+![The initial screen](imgs/analysis1.png)
 
 To move through the game, use the buttons beneath the board, or the `Turn` slider. The green dot will move along the plot, matching the state of the board:
-![The initial screen](/acco_proj/src/imgs/analysis2.png)
+![The initial screen](imgs/analysis2.png)
 
 In the evaluation tab, we can see that the next move is about to give Magnus a significant advantage- what did black play?
-![The initial screen](/acco_proj/src/imgs/analysis3.png)
+![The initial screen](imgs/analysis3.png)
 
 It would also be nice to know what black SHOULD have played, according to Stockfish. We can see the top 3 engine moves by pressing `Show Top 3`:
-![The initial screen](/acco_proj/src/imgs/analysis4.png)
+![The initial screen](imgs/analysis4.png)
 
 It looks like black didn't pick any of these. That explains (to some degree) why Magnus' position improved after this move. 
 
