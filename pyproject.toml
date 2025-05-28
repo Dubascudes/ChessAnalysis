@@ -1,0 +1,58 @@
+[build-system]
+requires = [
+    "setuptools>=80.8.0", # Using a modern version of setuptools
+    "wheel",
+    "python-chess"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "acco"
+version = "0.1.0" # Start with an initial version
+description = "A Chess.com game viewer and analysis tool."
+readme = "README.md"
+requires-python = ">=3.8" # Specify your minimum Python version
+license = {text = "Specify your license, e.g., MIT License. See LICENSE file."} # Placeholder
+authors = [
+  {name = "Your Name", email = "you@example.com"}, # Replace with your details
+]
+keywords = ["chess", "analysis", "gui"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License", # Example, choose your license
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Games/Entertainment :: Board Games",
+]
+
+# Dependencies will be listed in setup.cfg for now, or can also be here
+# [project.dependencies]
+# "requests",
+# rlPyCairo
+# svglib
+# reportlab
+# cairocffi
+# ...
+#    requests
+# Pillow>=9.0
+# matplotlib>=3.5
+# numpy
+# chess>=1.9
+# # cairosvg # No longer needed
+# svglib>=1.5
+# reportlab>=4.0
+# appdirs>=1.4.4
+# python-chess
+# svglib
+# tkinter is usually part of standard library, not listed here
+# PyInstaller is a build tool, not a runtime dependency of the *installed* package
+
+
+[project.urls]
+"Homepage" = "https://github.com/yourusername/AntiChessCheatingOrdinance" # Replace
+"Bug Tracker" = "https://github.com/yourusername/AntiChessCheatingOrdinance/issues" # Replace 

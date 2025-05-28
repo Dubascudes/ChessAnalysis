@@ -1,0 +1,6 @@
+{
+    "username": "deepcroaker",
+    "default_depth": 5,
+    "use_default_depth": true,
+    "stockfish_path": "/home/will.english/Desktop/Personal/ACCO_test/stockfish"
+}
