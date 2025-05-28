@@ -1,6 +1,6 @@
 [build-system]
 requires = [
-    "setuptools>=80.8.0", # Using a modern version of setuptools
+    "setuptools>=80.8.0", 
     "wheel",
     "python-chess"
 ]
@@ -8,11 +8,11 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "acco"
-version = "0.1.0" # Start with an initial version
+version = "0.1.0" # very early alpha
 description = "A Chess.com game viewer and analysis tool (anti-chess-cheating-ordinance)"
 readme = "README.md"
-requires-python = ">=3.8" # Specify your minimum Python version
-license = {text = "MIT License. See LICENSE file."} # Placeholder
+requires-python = ">=3.8" 
+license = {text = "MIT License. See LICENSE file."} 
 authors = [
   {name = "Will English", email = "me@willenglish.tech"}, 
 ]
@@ -45,7 +45,7 @@ dependencies = [
 # Pillow>=9.0
 # numpy
 # chess>=1.9
-# # cairosvg # No longer needed
+# # cairosvg # No longer used
 # svglib>=1.5
 # reportlab>=4.0
 # appdirs>=1.4.4
