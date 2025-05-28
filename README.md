@@ -23,7 +23,7 @@ To begin using the software, run this line and enter your chess.com username and
 python -m acco.init_database
 ```
 
-![Example of running acco.init_database, using Magnus Carlsen's chess.com username and a dummy path to a stockfish executable.](imgs/init_database.png)
+![Example of running acco.init_database, using Magnus Carlsen's chess.com username and a dummy path to a stockfish executable.](imgs/init_db.png)
 
 
 Now we can start the GUI with:
