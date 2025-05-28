@@ -31,10 +31,10 @@ Now we can start the GUI with:
 python -m acco.game_viewer
 ```
 
-![The initial screen](/acco_proj/src/imgs/starting_screen.png)
+![The initial screen](imgs/starting_screen.png)
 
 Our inital database only stores games played in the current month, so it's wise to expand this database by pulling games over a longer time span. This is done through the settings:
-![The initial screen](/acco_proj/src/imgs/update_db.png)
+![The initial screen](imgs/update_db.png)
 
 We now have Magnus' games going back to January of 2020. Note that our ELO plot looks pretty jank right now. We can filter it by time control using the buttons below the plot, and adjust the start and end game using the sliders:
 ![The initial screen](/acco_proj/src/imgs/elo_view.png)
